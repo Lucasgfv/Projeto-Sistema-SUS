@@ -4,14 +4,9 @@ Sistema completo para agendamento de consultas (modelo SUS-like), estimativa de 
 
 📝 Sobre o Projeto
 
-    Agendamento de consultas
-
-    Controle financeiro (Estimativa de custos para RH)
-
-    Gestão de membros (Pacientes/Usuários)
-
-    Relatórios gráficos
-
-    Emissão de documentação de recibos
-
-    Autenticação de entrada (Login de usuários/membros)
+- Agendamento de consultas
+- Controle financeiro (Estimativa de custos para RH)
+- Gestão de membros (Pacientes/Usuários)
+- Relatórios gráficos
+- Emissão de documentação de recibos
+- Autenticação de entrada (Login de usuários/membros)
