@@ -2,7 +2,11 @@
 Sistema completo para agendamento de consultas (modelo SUS-like), estimativa de custos para RH e emissão de relatórios detalhados.  Tecnologias: React (Frontend) e Node.js (Backend).
 
 
-📝 Sobre o Projeto
+<h2>🏥 Sistema de Agendamento Médico</h2>
+
+Plataforma completa para agendamento de consultas (modelo SUS-like), controle financeiro e gestão de membros.
+
+<h2>📝 Sobre o Projeto</h2>
 
 - Agendamento de consultas
 - Controle financeiro (Estimativa de custos para RH)
@@ -11,9 +15,6 @@ Sistema completo para agendamento de consultas (modelo SUS-like), estimativa de 
 - Emissão de documentação de recibos
 - Autenticação de entrada (Login de usuários/membros)
 
-🏥 Sistema de Agendamento Médico
-
-Plataforma completa para agendamento de consultas (modelo SUS-like), controle financeiro e gestão de membros.
 
 <h2>📋 Índice</h2>
 
