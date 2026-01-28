@@ -43,10 +43,15 @@ Etapas:
          - npx create-next-app@latest
             - accept: tailwindcss, react, react-dom, typescript, eslint
          - Dockerfile
+         - (Você não precisa de um index.js. O Next.js tem sua própria lógica de inicialização baseada na estrutura de pastas (src/app ou src/pages))
        - Back
          -  npm init -y
          -  npm install express pg cors
+         -  npm install --save-dev nodemon
+           -  Adicionar em "scripts" : { "dev": "nodemon index.js" }
          -  Dockerfile
+         -  index.js (apenas dentro da pasta backend, é o arquivo principal que o Node.js lê para iniciar o seu servidor)
+         - .env 
   - Criacao de codumento dockerfile-compose
 <h4> 2- inicializacao </h4>
   - /backend
@@ -54,3 +59,7 @@ Etapas:
   - /frontend
     - 
   - All
+    - First: docker-compose up -d
+    - Iniciar: docker-compose up
+    - docker-compose stop
+    
