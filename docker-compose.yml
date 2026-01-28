@@ -1,0 +1,44 @@
+version: '3.8'
+services:
+  #Banco de dados 
+  db: 
+    image: postgres:15
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: agendamento_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+      #Backend (Node + Express)
+  backend:
+    build: ./backend
+    container_name: node_backend
+    env_file:
+      - ./backend/.env
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    depends_on:
+      - db
+
+    #frontend (Next)
+  frontend:
+    build: ./frontend
+    container_name: next_frontend
+    ports:
+     - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+
+volumes:
+  pg_data:
