@@ -26,3 +26,31 @@ Plataforma completa para agendamento de consultas (modelo SUS-like), controle fi
 - Teste de Credenciais
 - Problemas Conhecidos
 - Licença
+
+
+
+<h2>Anotacoes pessoais</h2>
+<h3>Modo de construcao</h3>
+
+Etapas:
+1- Definicao de tenologias 
+  - Front: Next, React, Typescript
+  - Back: Node, express, API rest
+  - Others: docker, npm, git, github 
+    Inicializacao de projeto 
+  - Pre deficicao e Configuracao de pastas e rotas
+       - Front
+         - npx create-next-app@latest
+            - accept: tailwindcss, react, react-dom, typescript, eslint
+         - Dockerfile
+       - Back
+         -  npm init -y
+         -  npm install express pg cors
+         -  Dockerfile
+  - Criacao de codumento dockerfile-compose
+<h4> 2- inicializacao </h4>
+  - /backend
+    - 
+  - /frontend
+    - 
+  - All
