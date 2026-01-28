@@ -29,16 +29,16 @@ Plataforma completa para agendamento de consultas (modelo SUS-like), controle fi
 
 
 
-<h2>Anotacoes pessoais</h2>
-<h3>Modo de construcao</h3>
+<h2>Anotações pessoais</h2>
+<h3>Modo de construção</h3>
 
 Etapas:
-1- Definicao de tenologias 
+1- Definição de tecnologias
   - Front: Next, React, Typescript
   - Back: Node, express, API rest
   - Others: docker, npm, git, github 
-    Inicializacao de projeto 
-  - Pre deficicao e Configuracao de pastas e rotas
+    Inicialização do projeto
+  - Pré-definição e configuração de pastas e rotas
        - Front
          - npx create-next-app@latest
             - accept: tailwindcss, react, react-dom, typescript, eslint
@@ -52,8 +52,8 @@ Etapas:
          -  Dockerfile
          -  index.js (apenas dentro da pasta backend, é o arquivo principal que o Node.js lê para iniciar o seu servidor)
          - .env 
-  - Criacao de codumento dockerfile-compose
-<h4> 2- inicializacao </h4>
+  - Criação do documento docker-compose
+<h4>2- Inicialização</h4>
   - /backend
     - 
   - /frontend
